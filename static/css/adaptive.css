@@ -108,6 +108,34 @@
   }
 }
 
+@media only screen and (max-width: 390px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 95px;
+    left: 55px;
+  }
+
+  .my-text {
+    font-size: 0px;
+  }
+
+  .nav {
+    display: grid;
+    top: 410px;
+    left: 95px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
+
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   body {
