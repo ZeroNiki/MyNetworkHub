@@ -81,6 +81,32 @@
 
 }
 
+@media only screen and (max-width: 550px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 95px;
+    left: 130px;
+  }
+
+  .my-text {
+    font-size: 0px;
+  }
+
+  .nav {
+    display: grid;
+    top: 430px;
+    left: 170px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   body {
