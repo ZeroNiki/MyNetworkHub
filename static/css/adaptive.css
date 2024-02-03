@@ -1,0 +1,136 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 190px;
+    left: 480px;
+  }
+
+  .my-text {
+    font-size: 16px;
+    top: 170;
+    left: 125px;
+  }
+
+  .nav {
+    left: 210px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 190px;
+    left: 380px;
+  }
+
+  .my-text {
+    font-size: 16px;
+    top: 520px;
+    left: 25px;
+  }
+
+  .nav {
+    left: 110px; 
+    top: 600px;
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 190px;
+    left: 245px;
+  }
+
+  .my-text {
+    font-size: 0px;
+  }
+
+  .nav {
+    display: grid;
+    top: 485px;
+    left: 285px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 95px;
+    left: 98px;
+  }
+
+  .my-text {
+    font-size: 0px;
+  }
+
+  .nav {
+    display: grid;
+    top: 440px;
+    left: 138px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  body {
+    overflow: hidden;
+  } 
+
+  .avatar {
+    top: 95px;
+    left: 20px;
+  }
+
+  .my-text {
+    font-size: 0px;
+  }
+
+  .nav {
+    display: grid;
+    top: 440px;
+    left: 60px; 
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+  }
+}
