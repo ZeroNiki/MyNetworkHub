@@ -86,8 +86,41 @@
 }
 
 /* Mobile Phones */
-@media only screen and () and (max-width: 767px)  {
-.avatar {
+
+@media only screen and (max-width: 1080px)  {
+  body {
+    overflow: hidden;
+  }
+
+  .avatar {
+    top: 100px;
+    left: 375px;
+  }
+
+  .my-text {
+    font-size: 13px;
+    left: 135px;
+    top: 420px;
+  }
+
+  .nav {
+    left: 200px; 
+    top: 500px;
+  }
+
+  .nav a {
+    width: 60px;
+    margin: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 767px)  {
+  body {
+    overflow: hidden;
+  }
+
+  .avatar {
     top: 100px;
     left: 255px;
   }
