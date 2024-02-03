@@ -1,0 +1,184 @@
+/* Small Desktops / Laptops */ 
+@media only screen and (max-width: 1279px) {
+  body {
+    justify-content: center;
+  }
+  
+  .avatar {
+    left: 515px;
+    top: 190px;
+  }
+
+  .avatar img {
+    width: 80%;
+  }
+
+  .my-text {
+    font-size: 13px;
+    left: 255px;
+    top: 520px;
+  }
+
+  .nav {
+    left: 285px; 
+    top: 600px;
+  }
+
+  .nav a {
+    width: 80px;
+    margin: 10px;
+  }
+}
+
+/* Medium Desktops / Laptops */
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    body {
+    justify-content: center;
+  }
+  
+  .avatar {
+    left: 525px;
+    top: 190px;
+  }
+
+  .avatar img {
+    width: 80%;
+  }
+
+  .my-text {
+    font-size: 13px;
+    left: 276px;
+    top: 520px;
+  }
+
+  .nav {
+    left: 315px; 
+    top: 600px;
+  }
+
+  .nav a {
+    width: 80px;
+    margin: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .avatar {
+    left: 380px;
+  }
+
+  .my-text {
+    font-size: 13px;
+    left: 135px;
+    top: 530px;
+  }
+
+  .nav {
+    left: 190px; 
+    top: 600px;
+  }
+
+  .nav a {
+    width: 60px;
+    margin: 10px;
+  }
+}
+
+/* Mobile Phones */
+@media only screen and () and (max-width: 767px)  {
+.avatar {
+    top: 100px;
+    left: 255px;
+  }
+
+  .my-text {
+    font-size: 11px;
+    left: 60px;
+    top: 420px;
+  }
+
+  .nav {
+    left: 110px; 
+    top: 500px;
+  }
+
+  .nav a {
+    width: 40px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .avatar {
+    left: 110px;
+  }
+
+  .my-text {
+    font-size: 10px;
+    left: 10px;
+    top: 420px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .nav {
+    left: 90px; 
+    top: 500px;
+  }
+
+  .nav a {
+    width: 40px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .avatar {
+    left: 20px;
+  }
+
+  .my-text {
+    font-size: 0px;
+    left: 10px;
+    top: 420px;
+  }
+
+  .nav {
+    display: grid;
+    left: 90px; 
+    top: 500px;
+  }
+
+  .nav a {
+    width: 40px;
+    margin: 10px;
+  }
+}
+
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .avatar {
+    left: 375px;
+  }
+
+  .my-text {
+    font-size: 13px;
+    left: 100px;
+    top: 525px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .nav {
+    display: inline-block;
+    left: 200px; 
+    top: 600px;
+  }
+
+  .nav a {
+    width: 55px;
+    margin: 10px;
+  }
+}
